@@ -1,0 +1,5 @@
+torch==1.7.0+cu110
+opencv-python==4.4.0.42
+numpy==1.19.2
+typing==3.7.4.3
+yacs==0.1.8

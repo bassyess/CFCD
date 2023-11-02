@@ -1,0 +1,11 @@
+./datasets/images/google-landmark-v2/kaggle-2020/train/f/7/2/f72d298e1c50f117.jpg 59268 59268 0.9999996423721313
+./datasets/images/google-landmark-v2/kaggle-2020/train/c/1/6/c1634aefb9363be5.jpg 76947 76947 0.9999887943267822
+./datasets/images/google-landmark-v2/kaggle-2020/train/9/3/b/93b5a6b39953964b.jpg 18413 18413 0.9834111332893372
+./datasets/images/google-landmark-v2/kaggle-2020/train/5/5/e/55ec4b8ab5bf76bf.jpg 48493 48493 1.0
+./datasets/images/google-landmark-v2/kaggle-2020/train/8/e/6/8e6f2fab14a13de8.jpg 6934 6934 0.9999984502792358
+./datasets/images/google-landmark-v2/kaggle-2020/train/9/b/8/9b8cbe4803757046.jpg 69686 69686 0.9999865293502808
+./datasets/images/google-landmark-v2/kaggle-2020/train/0/9/5/095f8dd90ede7f89.jpg 62149 62149 0.7991930842399597
+./datasets/images/google-landmark-v2/kaggle-2020/train/a/4/a/a4aad64303c1bbba.jpg 69915 69915 0.9998683929443359
+./datasets/images/google-landmark-v2/kaggle-2020/train/0/6/7/0672c7e94b7b5917.jpg 1998 1998 0.9999998807907104
+./datasets/images/google-landmark-v2/kaggle-2020/train/a/7/c/a7c45b4772f9e45b.jpg 56972 56972 0.9998427629470825
+... ...

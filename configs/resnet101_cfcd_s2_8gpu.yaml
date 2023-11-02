@@ -1,0 +1,56 @@
+MODEL:
+  ALGO: MODEL_S2
+  TYPE: resnet
+  DEPTH: 101
+  NUM_CLASSES: 81313
+  HEADS:
+    IN_FEAT: 2048
+    REDUCTION_DIM: 512
+    ALPHA: 0.02
+    HEAD: MadaCos
+  LOSSES:
+    NAME: triplet_loss
+    LAMDA: 0.05
+    MARGIN: 0.1
+RESNET:
+  TRANS_FUN: bottleneck_transform
+  NUM_GROUPS: 1
+  WIDTH_PER_GROUP: 64
+  STRIDE_1X1: False
+BN:
+  ZERO_INIT_FINAL_GAMMA: True
+OPTIM:
+  BASE_LR: 0.005
+  LR_POLICY: cos
+  STEPS: [0, 30, 60, 90]
+  LR_MULT: 0.1
+  MAX_EPOCH: 50
+  MOMENTUM: 0.9
+  NESTEROV: True
+  WEIGHT_DECAY: 0.0001
+  WARMUP_EPOCHS: 0
+TRAIN:
+  WEIGHTS: outputs/R101_CFCD_D512/checkpoints/model_s1_0050.pyth
+  PRETRAINED: False
+  DATASET: landmark
+  SPLIT: train_list.txt
+  BATCH_SIZE: 128
+  IM_SIZE: 512
+  EVAL_PERIOD: 1
+  CHECKPOINT_PERIOD: 5
+  AUTO_RESUME: True
+TEST:
+  DATASET: landmark
+  SPLIT: val_list.txt
+  BATCH_SIZE: 128
+  IM_SIZE: 512
+PORT: 10001
+NUM_GPUS: 8
+DATA_LOADER:
+  NUM_WORKERS: 4
+  TUPLE_SIZE: 8 # image number of one tuple (anchor, positive, negative1, negative2,..., negative6), batch size in single gpu must be divisible by the tuple_size(BATCH_SIZE % (NUM_GPUS*TUPLE_SIZE)==0)
+  SAMPLER: DistributedTupleHEMSampler
+CUDNN:
+  BENCHMARK: True
+LOG_DEST: stdout
+OUT_DIR: ./R101_CFCD_D512_S2_MadaCos_Triplet_LR05_B128_E50W0

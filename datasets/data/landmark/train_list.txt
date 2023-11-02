@@ -1,0 +1,11 @@
+./datasets/images/google-landmark-v2/kaggle-2020/train/f/7/2/f72d298e1c50f117.jpg 59268
+./datasets/images/google-landmark-v2/kaggle-2020/train/c/1/6/c1634aefb9363be5.jpg 76947
+./datasets/images/google-landmark-v2/kaggle-2020/train/9/3/b/93b5a6b39953964b.jpg 18413
+./datasets/images/google-landmark-v2/kaggle-2020/train/5/5/e/55ec4b8ab5bf76bf.jpg 48493
+./datasets/images/google-landmark-v2/kaggle-2020/train/8/e/6/8e6f2fab14a13de8.jpg 6934
+./datasets/images/google-landmark-v2/kaggle-2020/train/9/b/8/9b8cbe4803757046.jpg 69686
+./datasets/images/google-landmark-v2/kaggle-2020/train/0/9/5/095f8dd90ede7f89.jpg 62149
+./datasets/images/google-landmark-v2/kaggle-2020/train/a/4/a/a4aad64303c1bbba.jpg 69915
+./datasets/images/google-landmark-v2/kaggle-2020/train/0/6/7/0672c7e94b7b5917.jpg 1998
+./datasets/images/google-landmark-v2/kaggle-2020/train/a/7/c/a7c45b4772f9e45b.jpg 56972
+... ...
