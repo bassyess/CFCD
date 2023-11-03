@@ -36,6 +36,9 @@ datasets
         └ gnd_rparis6k.pkl
         └ jpg
 ```
+### model weights
+You can download our model weights from [Google Drive](https://drive.google.com/drive/folders/1vHQakmpuyJlDtMw_sDLW4kZopo1glXTE?usp=sharing)
+
 
 ### Training
 
