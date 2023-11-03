@@ -37,7 +37,7 @@ datasets
         └ jpg
 ```
 ### model weights
-You can download our model weights from [Google Drive](https://drive.google.com/drive/folders/1vHQakmpuyJlDtMw_sDLW4kZopo1glXTE?usp=sharing)
+You can download pretrained weights from [pemetric](https://github.com/feymanpriv/pymetric#pretrained-weights) and download our model weights from [Google Drive](https://drive.google.com/drive/folders/1vHQakmpuyJlDtMw_sDLW4kZopo1glXTE?usp=sharing)
 
 
 ### Training
